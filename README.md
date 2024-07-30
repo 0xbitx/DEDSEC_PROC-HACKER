@@ -131,8 +131,8 @@ SAMPLE OUTPUT:
 ```
 
 ## INSTALLATION 
-    * git clone https://github.com/0xbitx/PROC-HACKER.git
-    * cd PROC-HACKER
+    * git clone https://github.com/0xbitx/DEDSEC_PROC-HACKER.git
+    * cd DEDSEC_PROC-HACKER
     * chmod +x dedsec_proc-hacker
     * sudo ./dedsec_proc-hacker
 
