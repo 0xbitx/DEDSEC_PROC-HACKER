@@ -36,6 +36,7 @@ PROC-HACKER is a Linux-based command-line tool designed to provide comprehensive
       Creation Time: The time when the file was created.
       Modification Time: The time when the file was last modified.
       Access Time: The time when the file was last accessed.
+      MD5 checksum: checksum of a file.
   
   Network Connections
   
