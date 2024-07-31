@@ -127,7 +127,10 @@ SAMPLE OUTPUT:
            [●] Open Files:
             └─ No open files found
            [●] Network Connections:
-            └─ No Network Connection found
+            └─ Local Address: 192.168.1.36 PORT: 31726 - Remote Address: 34.207.243.93 PORT: 443 - Status: ESTABLISHED
+            └─ Local Address: 192.168.1.36 PORT: 43546 - Remote Address: 140.12.113.25 PORT: 443 - Status: ESTABLISHED
+            └─ Local Address: 192.168.1.36 PORT: 43298 - Remote Address: 34.127.148.161 PORT: 443 - Status: ESTABLISHED
+            └─ Local Address: 192.168.1.36 PORT: 33156 - Remote Address: 34.117.223.93 PORT: 443 - Status: ESTABLISHED
 ```
 
 ## INSTALLATION 
