@@ -13,6 +13,14 @@
 
 PROC-HACKER is a Linux-based command-line tool designed to provide comprehensive and detailed insights into system processes. It displays a wide range of process details, including CPU usage, memory consumption, open files, network connections, thread information, and more. This tool is incredibly useful for developers, system administrators, security professionals, and digital forensics experts who need in-depth visibility and control over running processes. With its hierarchical tree-like display, PROC-HACKER makes it easy to trace parent-child relationships and understand the behavior and impact of each process on the system.
 
+PROC-HACKER also includes advanced features to catch malware or malicious code hiding within legitimate processes. It can detect and expose malicious activities, such as unauthorized file access and suspicious network connections, providing a clear view of potential threats. This makes PROC-HACKER an invaluable tool for identifying and mitigating security risks on Linux systems.
+
+Additionally, PROC-HACKER offers two monitoring options:
+
+    Snapshot Monitoring: Capture a snapshot of the current state of system processes.
+    Realtime Monitoring: Continuously monitor system processes in real-time, updating the display based on user-provided intervals.
+
+These monitoring options provide flexibility in how users can track and analyze process activities, making PROC-HACKER a versatile tool for both immediate and ongoing process investigation.
 ### Feature List
   Process Information
   
