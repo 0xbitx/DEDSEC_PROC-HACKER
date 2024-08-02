@@ -15,6 +15,8 @@ PROC-HACKER is a Linux-based command-line tool designed to provide comprehensive
 
 PROC-HACKER also includes advanced features to catch malware or malicious code hiding within legitimate processes. It can detect and expose malicious activities, such as unauthorized file access and suspicious network connections, providing a clear view of potential threats. This makes PROC-HACKER an invaluable tool for identifying and mitigating security risks on Linux systems.
 
+In addition, PROC-HACKER offers an option to check files for malware using a hash table. By comparing the files' hashes against a database of known malware checksums, it can quickly identify and flag malicious files, enhancing the security and integrity of your system.
+
 Additionally, PROC-HACKER offers two monitoring options:
 
     Snapshot Monitoring: Capture a snapshot of the current state of system processes.
