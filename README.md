@@ -10,17 +10,76 @@
 </p>
 
 ### DESCRIPTION
+PROC-HACKER is a comprehensive Linux-based command-line tool designed to provide deep insights into system processes, security threats, and file system activities. It combines process analysis, malware detection, and real-time file monitoring into a single powerful utility specifically engineered for threat hunting and incident response operations.
 
-PROC-HACKER is a Linux-based command-line tool designed to provide comprehensive and detailed insights into system processes. It displays a wide range of process details, including CPU usage, memory consumption, open files, network connections, thread information, and more. This tool is incredibly useful for developers, system administrators, security professionals, and digital forensics experts who need in-depth visibility and control over running processes. With its hierarchical tree-like display, PROC-HACKER makes it easy to trace parent-child relationships and understand the behavior and impact of each process on the system.
+## Key Capabilities
+* **Process Analysis**: Detailed view of running processes with hierarchical tree display
+* **Security Monitoring**: Detect malicious activities and suspicious behavior
+* **Forensic Evidence**: Capture and analyze process snapshots for investigation
+* **File Integrity**: Monitor file changes, creations, and deletions in real-time
+* **Malware Detection**: Hash-based malware checking against known threat databases
 
-PROC-HACKER also includes advanced features to catch malware or malicious code hiding within legitimate processes. It can detect and expose malicious activities, such as unauthorized file access and suspicious network connections, providing a clear view of potential threats. This makes PROC-HACKER an invaluable tool for identifying and mitigating security risks on Linux systems.
+### FEATURES
 
-In addition, PROC-HACKER offers an option to check files for malware using a hash table. By comparing the files' hashes against a database of known malware checksums, it can quickly identify and flag malicious files, enhancing the security and integrity of your system.
+## 1. Process Analysis
 
-Additionally, PROC-HACKER offers two monitoring options:
+  * Hierarchical tree view of processes showing parent-child relationships
 
-    Snapshot Monitoring: Capture a snapshot of the current state of system processes.
-    Realtime Monitoring: Continuously monitor system processes in real-time, updating the display based on user-provided intervals.
+   ### Comprehensive process details including:
+
+  * CPU and memory usage
+  * Open files with metadata (size, timestamps, checksums)
+  * Network connections (local/remote IPs, ports, connection types)
+  * Thread information and current working directory
+  * Process ownership and command-line arguments
+
+## 2. Monitoring Modes
+   
+   ### Snapshot Mode
+
+  * Capture a one-time snapshot of any process
+  * View complete process state including all open files and connections
+  * Ideal for quick investigations and spot checks
+
+   ### Realtime Mode
+
+  * Continuously monitor processes at user-defined intervals
+  * Adjustable delay (seconds or milliseconds)
+  * Option to record all snapshots for later analysis
+  * Real-time tracking of process behavior changes
+
+  ### Sniper Mode
+
+  * Launch and monitor any command in a dedicated terminal
+  * Automatically track the spawned process
+  * Perfect for analyzing suspicious executables in isolation
+
+## 3. Evidence Management System
+
+  * Automatic Recording: Capture multiple snapshots during monitoring sessions
+  * Structured Storage: Save evidence in JSON and human-readable TXT formats
+  * Evidence Viewer: Browse and analyze historical data
+  * Smart Filtering: Filter snapshots with activity vs. idle processes
+  * Network Analysis: Categorize connections as internal/external/local
+  * File Tracking: Monitor file access patterns and changes over time
+
+## 4. File Catcher - Real-time File Monitor
+
+   ### Monitor file system activities with precision:
+
+  * Track file creation, modification, and deletion
+  * Monitor single files, multiple files from list, or entire directories
+  * Automatic content capture when changes occur
+  * File metadata preservation (permissions, ownership, timestamps)
+  * SHA256 hash calculation for integrity verification
+  * Intelligent filename handling with path preservation
+
+## 5. Malware Detection
+
+  * Hash-based Checking: Compare file hashes against known malware database
+  * VirusTotal Integration: Direct links to VirusTotal for confirmed malware
+  * SHA256 Validation: Ensures hash format correctness
+  * Quick Scanning: Instant malware status reporting
 
 These monitoring options provide flexibility in how users can track and analyze process activities, making PROC-HACKER a versatile tool for both immediate and ongoing process investigation.
 ### Feature List
