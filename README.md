@@ -206,6 +206,8 @@ SAMPLE OUTPUT:
 ## INSTALLATION 
     * git clone https://github.com/0xbitx/DEDSEC_PROC-HACKER.git
     * cd DEDSEC_PROC-HACKER
+    * sudo pip3 install psutil tabulate bcc
+    * sudo apt install bpfcc-tools libbpfcc-dev python3-bpfcc
     * chmod +x dedsec_proc-hacker
     * sudo ./dedsec_proc-hacker
 
